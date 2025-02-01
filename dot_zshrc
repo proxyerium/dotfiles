@@ -1,5 +1,5 @@
-PS1='[%n@%m]%~ > '
-
+PS1=$'%F{#00a489}%n%f@%m %F{#73ba25}%d%f\n$ '
+RPS1=$'[%*]'
 
 # The following lines were added by compinstall
 
