@@ -4,3 +4,8 @@ README.md
 {{ if eq .chezmoi.os "windows" }}
 .zshrc
 {{ end }}
+
+{{ if ne .chezmoi.os "windows" }}
+Documents/
+readonly_Documents/
+{{ end }}
