@@ -6,8 +6,13 @@
     //    "autoUpdateIntervalInMinutes": 5
     // },
     "installBehavior": {
+        "portablePackageMachineRoot": "C:/Program Files/WinGet/Packages",
+        "defaultInstallRoot": "C:/Program Files/WinGet/Packages",
         "preferences": {
             "scope": "machine"
         }
+    },
+    "telemetry": {
+        "disable": true
     }
 }
